@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@media only screen and (max-width: 850px){
+    body{
+        height:100vh;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+
+    #pg2pn1{
+        height:77vh;
+        width: 100%;
+        position: absolute;
+        animation: fadeIn .5s;
+        
+    }
+
+    #pg2pn2{
+        height: 77vh;
+        width: 100%;
+        animation: fadeDown .2s;
+        position: absolute;
+        animation-fill-mode: forwards;
+        -webkit-animation-delay: .5s;
+        opacity: 0;
+    }
+
+
+    #pg2pn3{
+        height: 77vh;
+        width: 100%;
+        animation: slideLeft .2s;
+        position: absolute;
+        animation-fill-mode: forwards;
+        -webkit-animation-delay: 1s;
+        opacity: 0;
+    }
+
+    #pg2pn4{
+        height: 77vh;
+        width: 100%;
+        animation: slideLeft .2s;
+        animation-fill-mode: forwards;
+        -webkit-animation-delay: 1.5s;
+        opacity: 0;
+        position: absolute;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    .arrows{
+        color: #f99e1a;
+        position: relative;
+        top: 75%;
+        text-decoration: none;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        
+    }
+
+    .imgarrow{
+        height: 10vh;
+        width: auto;
+    }
+
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeDown{
+    from {
+        top: -5%;
+        opacity: 0;
+    }
+
+    to{
+        top: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft{
+    from {
+        left: 120%;
+        opacity: 0;
+    }
+
+    to{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+}
