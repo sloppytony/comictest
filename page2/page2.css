@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@media only screen and (max-width: 850px){
+    body{
+        height:100vh;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+
+    #pg1pn1{
+        height:77vh;
+        width: 100%;
+        position: absolute;
+        animation: fadeIn 1s;
+        
+    }
+
+    #pg1pn2{
+        height: 77vh;
+        width: 100%;
+        animation: fadeRight 1.5s;
+        position: absolute;
+    }
+
+    #pg1pn3{
+        height: 77vh;
+        width: 100%;
+        animation: fadeDown 2s;
+        position: absolute;
+    }
+
+    #pg1pn4{
+        height: 77vh;
+        width: 100%;
+        animation: fadeRight 2s;
+        position: absolute;
+    }
+
+    #pg1pn5{
+        height: 77vh;
+        width: 100%;
+        animation: fadeUp 1s;
+        position: absolute;
+    }
+
+    #pg1pn6{
+        height: 77vh;
+        width: 100%;
+        animation: fadeUp 1.5s;
+        position: absolute;
+    }
+
+    #pg1pn7{
+        height: 77vh;
+        width: 100%;
+        animation: fadeUp 2s;
+        position: absolute;
+    }
+
+    #pg1pn8{
+        height: 77vh;
+        width: 100%;
+        animation: fadeUp 2.5s;
+        position: absolute;
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    #next{
+        color: #f99e1a;
+        position: relative;
+        /*display: flex;
+        justify-content: center;
+        align-items: center;*/
+        text-decoration: none;
+        top: 82vh;
+        left: 40%;
+        animation: moveIcon 1.5s infinite;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeRight{
+    from {
+        left:-5%;
+        opacity: 0;
+        
+    }
+
+    to{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeDown{
+    from {
+        top: -5%;
+        opacity: 0;
+    }
+
+    to{
+        top: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp{
+    from{
+        top: 5%;
+        opacity: 0;
+    }
+
+    to{
+        top: 0%;
+        opacity: 1;
+    }
+}
+@keyframes moveIcon {
+    from {
+        left: 30%;
+        opacity: 0;
+    }
+
+    to {
+        left: 40%;
+        opacity: 1;
+    }
+}

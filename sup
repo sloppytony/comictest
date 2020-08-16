@@ -1,0 +1,6 @@
+<div class="image"></div>
+        <div class="bg-box2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eos nisi commodi, earum expedita nam.</p>
+        </div>
+
+        box-shadow:  -10px -10px 10px rgb(134, 0, 134) inset;

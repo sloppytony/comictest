@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+@media only screen and (max-width: 850px){
+    body{
+        height:100vh;
+        width: 100%;
+        background: #f99e1a;
+        overflow: hidden;
+        border: white 2px solid;
+    }
+    
+    img{
+        height: 77vh;
+        width: 100%;
+        border-bottom: white 2px solid;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    #next{
+        color: white;
+        position: absolute;
+        /*display: flex;
+        justify-content: center;
+        align-items: center;*/
+        text-decoration: none;
+        top: 82vh;
+        left: 40%;
+        animation: moveIcon 2s infinite;
+    }
+}
+
+
+@keyframes moveIcon {
+    from {
+        left: 30%;
+        opacity: 0;
+    }
+
+    to {
+        left: 40%;
+        opacity: 1;
+    }
+}
