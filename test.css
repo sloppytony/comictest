@@ -25,16 +25,20 @@
         text-decoration: none;
     }
     
-    #next{
-        color: white;
-        position: absolute;
-        /*display: flex;
-        justify-content: center;
-        align-items: center;*/
+    .arrows{
+        
+        
         text-decoration: none;
-        top: 77%;
-        left: 40%;
-        animation: moveIcon 2s infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .imgarrow{
+        height: 10vh;
+        width: auto;
     }
 }
 
