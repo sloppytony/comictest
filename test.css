@@ -32,7 +32,7 @@
         justify-content: center;
         align-items: center;*/
         text-decoration: none;
-        top: 82vh;
+        top: 77%;
         left: 40%;
         animation: moveIcon 2s infinite;
     }
