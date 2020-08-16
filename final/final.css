@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+@media only screen and (max-width: 850px){
+    body{
+        height:100vh;
+        width: 100%;
+        background: #f9f7f4;
+        overflow: hidden;
+        border: white 2px solid;
+    }
+    
+   .final_page{
+       width: 100%;
+       height: 100vh;
+       justify-content: space-around;
+       align-items: center;
+       
+   }
+    
+    #logo{
+        height: 20vh;
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left:33%;
+        margin-top: 25%;
+
+    }
+
+    .nav_link{
+        height: 10vh;
+        width: 55vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin:25%;
+        border-radius: 5%;
+        font-family: helvetica, sans-serif;
+        font-weight: 600;
+        font-size: larger;
+        text-decoration: none;
+        color: white;
+        background: #f99e1a;
+
+    }
+}
